@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'firaCode';
+	src: url('https://cdn.rawgit.com/tonsky/FiraCode/master/distr/ttf/FiraCode-Regular.ttf');
+	font-style: normal;
+	font-weight: normal;
+} 
+
+body {
+  background-color: black;
+}
+
+p {
+  word-break: break-all;
+  font-size: 8px;
+  font-family: firaCode !important;
+  width: 400px;
+  height: 400px;
+  color: transparent;
+  background: url("https://pbs.twimg.com/profile_images/1385587206123712512/-L_vD3HN_400x400.jpg");
+  -webkit-background-clip: text;
+}
